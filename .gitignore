@@ -1,0 +1,12 @@
+node_modules/
+.next/
+dist/
+test-results/
+playwright-report/
+playwright/.cache/
+docs/generated/
+public/phase0.html
+.env
+.env.*
+!.env.example
+!.env.test.example

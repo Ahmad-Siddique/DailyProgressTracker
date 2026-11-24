@@ -1,0 +1,1 @@
+export { countGwtSteps } from "../../spec/contract.js";
