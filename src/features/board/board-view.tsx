@@ -63,12 +63,6 @@ function sortByPosition(rows: TaskRow[]): TaskRow[] {
   return [...rows].sort((a, b) => a.position.localeCompare(b.position));
 }
 
-function isMoveMenuTarget(target: EventTarget | null) {
-  return (target as HTMLElement | null)?.closest(
-    "details, summary, [role='menuitem']",
-  );
-}
-
 function TaskCard({
   task,
   onMove,
